@@ -53,7 +53,7 @@ function ProductFilter() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center sm:flex-row gap-6 mb-10 text-primary w-full">
+    <div className="flex flex-col items-start justify-center sm:flex-row gap-6 mb-10 text-primary w-full">
       <div className="flex flex-row gap-6">
         <div className="flex flex-col gap-2 items-center">
           <h3>Category</h3>
@@ -98,11 +98,9 @@ function ProductFilter() {
           </span>
         </div>
       </div>
-      <div className="flex flex-row gap-6">
+      <div className="flex flex-row gap-6 justify-start items-start">
         <div className="flex flex-col gap-2 items-center">
-          <label htmlFor="sortSelect">
-            <h3>Sort By Price</h3>
-          </label>
+          <h3>Sort By Price</h3>
           <select
             id="sortSelect"
             onChange={(e) => handleSortOptionChange(e.target.value)}
