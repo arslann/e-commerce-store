@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between pt-10 bg-base-100">
       <ProductFilter />
-      <div className="container mx-auto flex flex-row flex-wrap gap-8 justify-center">
+      <div className="container mx-auto flex flex-row flex-wrap gap-8 justify-center break-words">
         {filteredProducts &&
           filteredProducts.map((product) => {
             return <ProductCard key={product.id} {...product} />;

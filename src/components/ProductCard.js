@@ -12,7 +12,7 @@ function ProductCard({ category, description, image, price, title }) {
           {title}
           <div className="badge badge-secondary">NEW</div>
         </h2>
-        <p className="max-h-24 overflow-auto">{description}</p>
+        <p className="max-h-24 max-w-[300px] overflow-auto">{description}</p>
         <div className="card-actions justify-end">
           <div className="badge badge-outline">{category}</div>
         </div>
