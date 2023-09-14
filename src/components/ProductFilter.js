@@ -53,7 +53,7 @@ function ProductFilter() {
   };
 
   return (
-    <div className="flex flex-col items-start justify-center sm:flex-row gap-6 mb-10 text-primary w-full">
+    <div className="flex flex-col items-start justify-center sm:flex-row gap-6 mb-10 text-primary w-full px-2">
       <div className="flex flex-row gap-6">
         <div className="flex flex-col gap-2 items-center">
           <h3>Category</h3>
