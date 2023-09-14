@@ -108,7 +108,7 @@ function ProductFilter() {
             onChange={(e) => handleSortOptionChange(e.target.value)}
             className="select select-bordered w-full max-w-xs"
           >
-            <option value="default" selected>
+            <option value="default" defaultValue>
               Default
             </option>
             <option value="lowToHigh">Low to High</option>
